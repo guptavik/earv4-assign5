@@ -111,8 +111,7 @@ $$
 
 **Reasoning:**
 
-- Layers with output >350x350: 32+64+128+256+512+1024 = 2016
-- Input channels (3) are usually **not counted** in GPU feature maps
+- Layers with output >350x350: 3+32+64+128+256+512+1024 = 2019
 
 ### Table: Feature Map Channels
 
@@ -125,9 +124,9 @@ $$
 | Conv4: 256x(3x3x128)  | 392x392           | 256        | ✅                  | 483                          |
 | Conv5: 512x(3x3x256)  | 390x390           | 512        | ✅                  | 995                          |
 | Conv6: 1024x(3x3x512) | 388x388           | 1024       | ✅                  | 2019                         |
-| MaxPooling 2x2        | 194x194           | 1024       | ❌                  | 2019                         |
+| MaxPooling 2x2        | 194x194           | 1024       | ✅                  | 2019                         |
 
-> ✅ **Note:** Standard answer for GPU feature maps = 2016 (excluding input image).
+
 
 ---
 
