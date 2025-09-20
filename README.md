@@ -135,7 +135,7 @@ $$
 - ✅ Reduces spatial dimensions (HxW)
 - ✅ Provides slight **translational invariance**
 - ❌ Does **not** reduce number of channels
-- ❌ Does **not** provide rotational invariance
+- ✅ Provides slight **rotational invariance**
 
 ---
 
