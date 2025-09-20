@@ -176,8 +176,8 @@ print(f"Parameter count < 20k: {total_params < 20000}")
 
 ### **Data Split:**
 - **Training**: 50,000 samples
-- **Validation**: 10,000 samples (used as test set)
 - **Test**: 10,000 samples (official MNIST test set)
+- **Validation**: 10,000 samples (used as test set)
 
 ### **Training Parameters:**
 - **Optimizer**: Adam (lr=0.001, weight_decay=1e-4)
